@@ -6,10 +6,10 @@ import (
 	"time"
 
 	"cloud.google.com/go/spanner"
-	"github.com/MixinNetwork/ocean.one/example/config"
-	"github.com/MixinNetwork/ocean.one/example/durable"
-	"github.com/MixinNetwork/ocean.one/example/models"
-	"github.com/MixinNetwork/ocean.one/example/session"
+	"github.com/usmbest/ocean.one/example/config"
+	"github.com/usmbest/ocean.one/example/durable"
+	"github.com/usmbest/ocean.one/example/models"
+	"github.com/usmbest/ocean.one/example/session"
 )
 
 type Hub struct {

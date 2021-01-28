@@ -7,8 +7,8 @@ import (
 	"time"
 
 	"cloud.google.com/go/spanner"
-	"github.com/MixinNetwork/ocean.one/example/durable"
-	"github.com/MixinNetwork/ocean.one/example/session"
+	"github.com/usmbest/ocean.one/example/durable"
+	"github.com/usmbest/ocean.one/example/session"
 	"google.golang.org/api/iterator"
 )
 

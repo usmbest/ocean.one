@@ -8,8 +8,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/MixinNetwork/ocean.one/example/uuid"
 	"github.com/stretchr/testify/assert"
+	"github.com/usmbest/ocean.one/example/uuid"
 )
 
 func TestUserCRUD(t *testing.T) {

@@ -10,8 +10,8 @@ import (
 	"strings"
 	"time"
 
-	"github.com/MixinNetwork/ocean.one/example/config"
-	"github.com/MixinNetwork/ocean.one/example/uuid"
+	"github.com/usmbest/ocean.one/example/config"
+	"github.com/usmbest/ocean.one/example/uuid"
 )
 
 func TelesignSendVerificationCode(phone, code string) error {

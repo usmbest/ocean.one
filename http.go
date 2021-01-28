@@ -7,15 +7,15 @@ import (
 	"strings"
 	"time"
 
-	"github.com/MixinNetwork/ocean.one/cache"
-	"github.com/MixinNetwork/ocean.one/config"
-	"github.com/MixinNetwork/ocean.one/persistence"
 	"github.com/bugsnag/bugsnag-go"
 	"github.com/dimfeld/httptreemux"
 	"github.com/gofrs/uuid"
 	"github.com/gorilla/handlers"
 	"github.com/gorilla/websocket"
 	"github.com/unrolled/render"
+	"github.com/usmbest/ocean.one/cache"
+	"github.com/usmbest/ocean.one/config"
+	"github.com/usmbest/ocean.one/persistence"
 )
 
 type RequestHandler struct {
@@ -55,7 +55,7 @@ func (handler *RequestHandler) ServeHTTP(w http.ResponseWriter, r *http.Request)
 		}
 		data := map[string]interface{}{
 			"build":      config.BuildVersion + "-" + runtime.Version(),
-			"developers": "https://github.com/MixinNetwork/ocean.one",
+			"developers": "https://github.com/usmbest/ocean.one",
 			"checkpoint": cp,
 			"actions":    ac,
 			"transfers":  tc,

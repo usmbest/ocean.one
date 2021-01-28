@@ -5,8 +5,8 @@ import (
 	"log"
 	"os"
 
-	"github.com/MixinNetwork/ocean.one/example/config"
 	"github.com/newrelic/go-agent"
+	"github.com/usmbest/ocean.one/example/config"
 )
 
 func setupNewRelic(service string) newrelic.Application {

@@ -3,7 +3,7 @@ package views
 import (
 	"net/http"
 
-	"github.com/MixinNetwork/ocean.one/example/session"
+	"github.com/usmbest/ocean.one/example/session"
 )
 
 type ResponseView struct {

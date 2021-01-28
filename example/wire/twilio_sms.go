@@ -6,7 +6,7 @@ import (
 	"net/url"
 	"strings"
 
-	"github.com/MixinNetwork/ocean.one/example/config"
+	"github.com/usmbest/ocean.one/example/config"
 )
 
 func TwilioSendVerificationCode(phone, code string) error {
@@ -18,7 +18,7 @@ func TwilioSendVerificationCode(phone, code string) error {
 func TwilioSendSMS(phone, body, callback string) error {
 	endpoint := fmt.Sprintf("https://api.twilio.com/2010-04-01/Accounts/%s/Messages.json", config.TwilioAccountSid)
 	params := url.Values{
-		"To": []string{phone},
+		"To":                  []string{phone},
 		"MessagingServiceSid": []string{config.TwilioMessagingServiceSid},
 		"Body":                []string{body},
 	}

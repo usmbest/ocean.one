@@ -6,8 +6,8 @@ import (
 	"encoding/hex"
 	"fmt"
 
-	"github.com/MixinNetwork/ocean.one/example/session"
 	"github.com/dgrijalva/jwt-go"
+	"github.com/usmbest/ocean.one/example/session"
 )
 
 func AuthenticateWithToken(ctx context.Context, jwtToken string) (*User, error) {

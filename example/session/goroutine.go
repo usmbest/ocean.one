@@ -5,8 +5,8 @@ import (
 	"fmt"
 	"runtime"
 
-	"github.com/MixinNetwork/ocean.one/example/config"
 	"github.com/bugsnag/bugsnag-go"
+	"github.com/usmbest/ocean.one/example/config"
 )
 
 func Go(f func(), c context.Context) {

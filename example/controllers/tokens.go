@@ -4,10 +4,10 @@ import (
 	"encoding/json"
 	"net/http"
 
-	"github.com/MixinNetwork/ocean.one/example/middlewares"
-	"github.com/MixinNetwork/ocean.one/example/session"
-	"github.com/MixinNetwork/ocean.one/example/views"
 	"github.com/dimfeld/httptreemux"
+	"github.com/usmbest/ocean.one/example/middlewares"
+	"github.com/usmbest/ocean.one/example/session"
+	"github.com/usmbest/ocean.one/example/views"
 )
 
 type tokensImpl struct{}

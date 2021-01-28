@@ -4,9 +4,9 @@ import (
 	"net/http"
 	"runtime"
 
-	"github.com/MixinNetwork/ocean.one/example/config"
-	"github.com/MixinNetwork/ocean.one/example/views"
 	"github.com/dimfeld/httptreemux"
+	"github.com/usmbest/ocean.one/example/config"
+	"github.com/usmbest/ocean.one/example/views"
 )
 
 func RegisterRoutes(router *httptreemux.TreeMux) {
@@ -25,7 +25,7 @@ func RegisterRoutes(router *httptreemux.TreeMux) {
 func root(w http.ResponseWriter, r *http.Request, params map[string]string) {
 	views.RenderDataResponse(w, r, map[string]string{
 		"build":      config.BuildVersion + "-" + runtime.Version(),
-		"developers": "https://github.com/MixinNetwork/ocean.one/example",
+		"developers": "https://github.com/usmbest/ocean.one/example",
 	})
 }
 

@@ -3,8 +3,8 @@ package models
 import (
 	"testing"
 
-	"github.com/MixinNetwork/ocean.one/example/uuid"
 	"github.com/stretchr/testify/assert"
+	"github.com/usmbest/ocean.one/example/uuid"
 )
 
 func TestMarketCRUD(t *testing.T) {

@@ -8,9 +8,9 @@ import (
 	"regexp"
 	"strings"
 
-	"github.com/MixinNetwork/ocean.one/example/models"
-	"github.com/MixinNetwork/ocean.one/example/session"
-	"github.com/MixinNetwork/ocean.one/example/views"
+	"github.com/usmbest/ocean.one/example/models"
+	"github.com/usmbest/ocean.one/example/session"
+	"github.com/usmbest/ocean.one/example/views"
 )
 
 var whitelist = [][2]string{

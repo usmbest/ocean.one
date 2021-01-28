@@ -9,11 +9,11 @@ import (
 	"time"
 
 	"cloud.google.com/go/spanner"
-	"github.com/MixinNetwork/ocean.one/example/config"
-	"github.com/MixinNetwork/ocean.one/example/durable"
-	"github.com/MixinNetwork/ocean.one/example/session"
-	"github.com/MixinNetwork/ocean.one/example/uuid"
-	"github.com/MixinNetwork/ocean.one/example/wire"
+	"github.com/usmbest/ocean.one/example/config"
+	"github.com/usmbest/ocean.one/example/durable"
+	"github.com/usmbest/ocean.one/example/session"
+	"github.com/usmbest/ocean.one/example/uuid"
+	"github.com/usmbest/ocean.one/example/wire"
 	"google.golang.org/api/iterator"
 )
 

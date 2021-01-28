@@ -7,10 +7,10 @@ import (
 	"time"
 
 	"cloud.google.com/go/spanner"
-	"github.com/MixinNetwork/ocean.one/cache"
-	"github.com/MixinNetwork/ocean.one/config"
-	"github.com/MixinNetwork/ocean.one/persistence"
 	"github.com/go-redis/redis"
+	"github.com/usmbest/ocean.one/cache"
+	"github.com/usmbest/ocean.one/config"
+	"github.com/usmbest/ocean.one/persistence"
 )
 
 func main() {

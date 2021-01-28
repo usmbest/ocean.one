@@ -5,9 +5,9 @@ import (
 	"flag"
 	"log"
 
-	"github.com/MixinNetwork/ocean.one/example/config"
-	"github.com/MixinNetwork/ocean.one/example/durable"
-	"github.com/MixinNetwork/ocean.one/example/services"
+	"github.com/usmbest/ocean.one/example/config"
+	"github.com/usmbest/ocean.one/example/durable"
+	"github.com/usmbest/ocean.one/example/services"
 )
 
 func main() {

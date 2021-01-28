@@ -4,9 +4,9 @@ import (
 	"net/http"
 	"strings"
 
-	"github.com/MixinNetwork/ocean.one/example/durable"
-	"github.com/MixinNetwork/ocean.one/example/session"
-	"github.com/MixinNetwork/ocean.one/example/uuid"
+	"github.com/usmbest/ocean.one/example/durable"
+	"github.com/usmbest/ocean.one/example/session"
+	"github.com/usmbest/ocean.one/example/uuid"
 )
 
 func Log(handler http.Handler, client *durable.LoggerClient, service string) http.Handler {

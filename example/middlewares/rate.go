@@ -8,9 +8,9 @@ import (
 	"strings"
 	"time"
 
-	"github.com/MixinNetwork/ocean.one/example/session"
-	"github.com/MixinNetwork/ocean.one/example/views"
 	"github.com/bugsnag/bugsnag-go"
+	"github.com/usmbest/ocean.one/example/session"
+	"github.com/usmbest/ocean.one/example/views"
 )
 
 func getRareRoutePattern(r *http.Request) string {

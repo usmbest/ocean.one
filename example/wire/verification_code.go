@@ -3,7 +3,7 @@ package wire
 import (
 	"context"
 
-	"github.com/MixinNetwork/ocean.one/example/session"
+	"github.com/usmbest/ocean.one/example/session"
 )
 
 func SendVerificationCode(ctx context.Context, category, provider, receiver, code string) error {

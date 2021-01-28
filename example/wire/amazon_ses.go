@@ -3,7 +3,7 @@ package wire
 import (
 	"fmt"
 
-	"github.com/MixinNetwork/ocean.one/example/config"
+	"github.com/usmbest/ocean.one/example/config"
 	"gopkg.in/gomail.v2"
 )
 

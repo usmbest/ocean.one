@@ -9,8 +9,8 @@ import (
 	"runtime"
 	"time"
 
-	"github.com/MixinNetwork/ocean.one/example/session"
-	"github.com/MixinNetwork/ocean.one/example/views"
+	"github.com/usmbest/ocean.one/example/session"
+	"github.com/usmbest/ocean.one/example/views"
 )
 
 func Stats(handler http.Handler, service string, logRequestBody bool, buildVersion string) http.Handler {

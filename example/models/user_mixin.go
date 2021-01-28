@@ -6,9 +6,9 @@ import (
 
 	"cloud.google.com/go/spanner"
 	"github.com/MixinNetwork/bot-api-go-client"
-	"github.com/MixinNetwork/ocean.one/example/config"
-	"github.com/MixinNetwork/ocean.one/example/session"
-	"github.com/MixinNetwork/ocean.one/example/uuid"
+	"github.com/usmbest/ocean.one/example/config"
+	"github.com/usmbest/ocean.one/example/session"
+	"github.com/usmbest/ocean.one/example/uuid"
 )
 
 func (current *User) ConnectMixin(ctx context.Context, authorizationCode string) (*User, error) {

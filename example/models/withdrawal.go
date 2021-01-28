@@ -5,8 +5,8 @@ import (
 	"strings"
 
 	"github.com/MixinNetwork/go-number"
-	"github.com/MixinNetwork/ocean.one/example/session"
-	"github.com/MixinNetwork/ocean.one/example/uuid"
+	"github.com/usmbest/ocean.one/example/session"
+	"github.com/usmbest/ocean.one/example/uuid"
 )
 
 func (current *User) CreateWithdrawal(ctx context.Context, assetId string, amount number.Decimal, traceId, memo string) error {

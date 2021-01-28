@@ -1,6 +1,6 @@
 package wire
 
-import "github.com/MixinNetwork/ocean.one/example/config"
+import "github.com/usmbest/ocean.one/example/config"
 
 const (
 	SMSProviderTelesign = "telesign"

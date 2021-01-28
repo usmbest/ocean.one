@@ -10,9 +10,9 @@ import (
 
 	"github.com/MixinNetwork/bot-api-go-client"
 	"github.com/MixinNetwork/go-number"
-	"github.com/MixinNetwork/ocean.one/example/config"
-	"github.com/MixinNetwork/ocean.one/example/models"
-	"github.com/MixinNetwork/ocean.one/example/session"
+	"github.com/usmbest/ocean.one/example/config"
+	"github.com/usmbest/ocean.one/example/models"
+	"github.com/usmbest/ocean.one/example/session"
 )
 
 type Trade struct {

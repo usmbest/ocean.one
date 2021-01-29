@@ -3,9 +3,9 @@ package engine
 import (
 	"log"
 
-	"github.com/MixinNetwork/go-number"
 	"github.com/emirpasic/gods/lists/arraylist"
 	"github.com/emirpasic/gods/trees/redblacktree"
+	"github.com/usmbest/go-number"
 )
 
 const (

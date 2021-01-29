@@ -4,8 +4,8 @@ go 1.15
 
 require (
 	cloud.google.com/go/spanner v1.9.0
-	github.com/MixinNetwork/bot-api-go-client v1.1.5
-	github.com/MixinNetwork/go-number v0.0.0-20180814121220-f48e2574d9ef
+	github.com/usmbest/bot-api-go-client v1.1.5
+	github.com/usmbest/go-number v0.0.0-20180814121220-f48e2574d9ef
 	github.com/usmbest/ocean.one v0.0.0-20201103095337-cbd79528e93c // indirect
 	github.com/bugsnag/bugsnag-go v1.5.3
 	github.com/dgrijalva/jwt-go v3.2.0+incompatible

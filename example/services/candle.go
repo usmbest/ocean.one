@@ -8,8 +8,8 @@ import (
 	"net/http"
 	"time"
 
-	"github.com/MixinNetwork/bot-api-go-client"
-	"github.com/MixinNetwork/go-number"
+	"github.com/usmbest/bot-api-go-client"
+	"github.com/usmbest/go-number"
 	"github.com/usmbest/ocean.one/example/config"
 	"github.com/usmbest/ocean.one/example/models"
 	"github.com/usmbest/ocean.one/example/session"

@@ -23,10 +23,10 @@ import (
 	"time"
 
 	"cloud.google.com/go/spanner"
-	"github.com/MixinNetwork/bot-api-go-client"
-	"github.com/MixinNetwork/go-number"
 	"github.com/gofrs/uuid"
 	"github.com/ugorji/go/codec"
+	"github.com/usmbest/bot-api-go-client"
+	"github.com/usmbest/go-number"
 	"github.com/usmbest/ocean.one/example/config"
 	"github.com/usmbest/ocean.one/example/session"
 )

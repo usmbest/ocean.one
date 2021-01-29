@@ -5,7 +5,7 @@ import (
 	"strings"
 
 	"cloud.google.com/go/spanner"
-	"github.com/MixinNetwork/bot-api-go-client"
+	"github.com/usmbest/bot-api-go-client"
 	"github.com/usmbest/ocean.one/example/config"
 	"github.com/usmbest/ocean.one/example/session"
 	"github.com/usmbest/ocean.one/example/uuid"

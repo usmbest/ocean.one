@@ -4,7 +4,7 @@ import (
 	"context"
 	"strings"
 
-	"github.com/MixinNetwork/go-number"
+	"github.com/usmbest/go-number"
 	"github.com/usmbest/ocean.one/example/session"
 	"github.com/usmbest/ocean.one/example/uuid"
 )

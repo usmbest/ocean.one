@@ -18,7 +18,7 @@ import (
 	"time"
 
 	"cloud.google.com/go/spanner"
-	"github.com/MixinNetwork/bot-api-go-client"
+	"github.com/usmbest/bot-api-go-client"
 	"github.com/usmbest/ocean.one/config"
 	"google.golang.org/api/iterator"
 )

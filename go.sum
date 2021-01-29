@@ -37,10 +37,10 @@ cloud.google.com/go/storage v1.10.0/go.mod h1:FLPqc6j+Ki4BU591ie1oL6qBQGu2Bl/tZ9
 dmitri.shuralyov.com/gpu/mtl v0.0.0-20190408044501-666a987793e9/go.mod h1:H6x//7gZCb22OMCxBHrMx7a5I7Hp++hsVxbQ4BYO7hU=
 github.com/BurntSushi/toml v0.3.1/go.mod h1:xHWCNGjB5oqiDr8zfno3MHue2Ht5sIBksp03qcyfWMU=
 github.com/BurntSushi/xgb v0.0.0-20160522181843-27f122750802/go.mod h1:IVnqGOEym/WlBOVXweHU+Q+/VP0lqqI8lqeDx9IjBqo=
-github.com/MixinNetwork/bot-api-go-client v1.1.5 h1:2xiygpNtLkBOiKqGQBjum+q9PZruOwCEJ0jjq2ksfbk=
-github.com/MixinNetwork/bot-api-go-client v1.1.5/go.mod h1:bTVDvAp6IfOIQQ2pPcuQ0mMKzqBbS5WanBmtP26wUgU=
-github.com/MixinNetwork/go-number v0.0.0-20180814121220-f48e2574d9ef h1:voLSevPsupH+UzSIhDZWKAnnw9NdCROYnRLuVB/de1E=
-github.com/MixinNetwork/go-number v0.0.0-20180814121220-f48e2574d9ef/go.mod h1:yED1WX0flPw5EBTLHye6ob3FnurCNk/Yk5NUe5VVWzg=
+github.com/usmbest/bot-api-go-client v1.1.5 h1:2xiygpNtLkBOiKqGQBjum+q9PZruOwCEJ0jjq2ksfbk=
+github.com/usmbest/bot-api-go-client v1.1.5/go.mod h1:bTVDvAp6IfOIQQ2pPcuQ0mMKzqBbS5WanBmtP26wUgU=
+github.com/usmbest/go-number v0.0.0-20180814121220-f48e2574d9ef h1:voLSevPsupH+UzSIhDZWKAnnw9NdCROYnRLuVB/de1E=
+github.com/usmbest/go-number v0.0.0-20180814121220-f48e2574d9ef/go.mod h1:/jbccUdOoXwHhMu8tHIi8LsSCTUz+DRAvzGcFPL4YCQ=
 github.com/usmbest/ocean.one v0.0.0-20201103095337-cbd79528e93c h1:UDA8vdxe8cUySZFIWNoxutWqchFwunX/It//MxRsRFw=
 github.com/usmbest/ocean.one v0.0.0-20201103095337-cbd79528e93c/go.mod h1:Xt19fcd11s3hOoIfONwz/claA5hcNHwhiBlRk9X+APk=
 github.com/bugsnag/bugsnag-go v1.5.3 h1:yeRUT3mUE13jL1tGwvoQsKdVbAsQx9AJ+fqahKveP04=
